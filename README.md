@@ -3,7 +3,7 @@
 ## File Info
 - [GPKG](https://github.com/zhwang0/SIGCUP2023/tree/main/GPKG): a folder storing the lake_poygons_test.gpkg file, containing polygon outlines of predicted lakes.
 - [model_ckp](https://github.com/zhwang0/SIGCUP2023/tree/main/model_ckp): a folder storing the TensorFlow checkpoints of the model (must be put in the same directory of the trian.py file).
-- [Train.py](https://github.com/zhwang0/SIGCUP2023/tree/main/Train.py): a Python file predicting the lake outlines.
+- [Predict.ipynb](https://github.com/zhwang0/SIGCUP2023/tree/main/Predict.ipynb): a Python Jupyter Notebook file predicting the lake outlines. **Only need to modify the third code section.**
 - [Preprocess.ipynb](https://github.com/zhwang0/SIGCUP2023/tree/main/Preprocess.ipynb): a Python Jupyter Notebook to crop the large satellite image into six regions for training and testing. Recommend crop images when the prediction is slow (See Note 1 for details).
 
 ## Library Versions
@@ -16,7 +16,10 @@
 - tensorflow version =  2.10.0
 
 ## Usage
-1. 
+1. Download [model_ckp](https://github.com/zhwang0/SIGCUP2023/tree/main/model_ckp) and [Predict.ipynb](https://github.com/zhwang0/SIGCUP2023/tree/main/Predict.ipynb) files to local.
+2. Check if the libraries are compatible.
+3. Change the path in the third code section to load evaluation images.
+4. Run the following codes to get the results. 
 
 
 
