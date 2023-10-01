@@ -1,0 +1,2 @@
+model_checkpoint_path: "ckp50-17"
+all_model_checkpoint_paths: "ckp50-17"
