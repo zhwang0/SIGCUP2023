@@ -25,7 +25,8 @@
 
 ## Note 
 1. The estimated prediction time for all test regions is about 1 hour using an NVIDIA RTX A4500. Since the raw satellite is very large, it is recommended to split the raw image into 6 regions. We have done this process using [Preprocess.ipynb](https://github.com/zhwang0/SIGCUP2023/tree/main/Preprocess.ipynb) and the cropped images are stored in a [Google Drive](https://drive.google.com/drive/folders/1LlkRJyiL0nsJdSD7HVYVpbizbrC9cUpB?usp=sharing) for your convenience.
-2. Other preprocessing and training codes are available upon request.
+2. One may need to change the naming function in the second from the last code section, since we use it to fill the Image and Region_Num columns in the geopackage file. 
+3. Other preprocessing and training codes are available upon request.
 
 
 ## Team
